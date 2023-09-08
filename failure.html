@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe0e0;
+            text-align: center;
+        }
+        .container {
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #d9534f;
+            color: #fff;
+            border-radius: 5px;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Failure!</h1>
+        <p>Your operation encountered an error.</p>
+        <form action="/failure" method="post">
+            <button class="btn btn-warning" type="submit">Try again</button>
+
+        </form>
+        
+    </div>
+</body>
+</html>
